@@ -14,6 +14,7 @@ For your enjoyment, I recommend viewing in this order (from least to most cursed
 - `zig build new_last_error` / `new_last_error.zig`
 - `zig build counter_increment_only` / `counter_increment_only.zig`
 - `zig build counter_complex` / `counter_complex.zig`
+- `zig build mapper` / `mapper.zig`
 
 Each example builds on previous examples.
 

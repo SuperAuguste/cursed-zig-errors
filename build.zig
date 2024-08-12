@@ -6,6 +6,7 @@ pub const examples = .{
     .{ "new_last_error", "src/new_last_error.zig" },
     .{ "counter_increment_only", "src/counter_increment_only.zig" },
     .{ "counter_complex", "src/counter_complex.zig" },
+    .{ "mapper", "src/mapper.zig" },
 };
 
 pub fn build(b: *std.Build) void {

@@ -33,14 +33,14 @@ test "Concept: Error integers" {
     // _ = @errorFromInt(4);
 }
 
-test "Concept: anyerror backing integer" {
+test "Concept: `anyerror` backing integer" {
     // `anyerror` has a fixed backing int size that can be modified with `--error-limit [num]`.
     // By default, this backing int is a `u16`.
 
     try testing.expectEqual(u16, std.meta.Int(.unsigned, @bitSizeOf(anyerror)));
 }
 
-test "Concept: invalid error name null checking for @field" {
+test "Concept: Invalid error name null checking for @field" {
     // Invalid (ast-check fails w/ "identifier cannot contain null bytes")
     // const my_error = error.@"Bruh\x00";
 
